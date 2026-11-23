@@ -1119,7 +1119,7 @@ function launchOriginalBot(){
 function checkCode(){
   if(!inputs.every(input=>input.value)) return;
   const code=inputs.map(input=>input.value).join("");
-  const correctPassword = "2563";
+  const correctPassword = "0000";
 
   if(code===correctPassword){
     inputs.forEach(input=>input.classList.add("success"));
